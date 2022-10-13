@@ -1,0 +1,31 @@
+Source: node-gulp-babel
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Section: javascript
+Testsuite: autopkgtest-pkg-nodejs
+Priority: optional
+Build-Depends:
+ debhelper-compat (= 13)
+ , dh-sequence-nodejs
+Standards-Version: 4.5.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-gulp-babel
+Vcs-Git: https://salsa.debian.org/js-team/node-gulp-babel.git
+Homepage: https://github.com/babel/gulp-babel
+Rules-Requires-Root: no
+
+Package: node-gulp-babel
+Architecture: all
+Depends: ${misc:Depends}
+ , node-plugin-error
+ , node-replace-ext
+ , node-through2 (>= 2.0.0)
+ , node-vinyl-sourcemaps-apply
+Recommends: gulp
+Enhances: gulp, node-babel-core (>= 7)
+Description: gulp plugin to use babel
+ gulp is a toolkit that helps you automate painful or time-consuming tasks in
+ your development workflow.
+ .
+ Babel is a JavaScript compiler to use next generation JavaScript, today.
+ .
+ Node.js is an event-based server-side JavaScript engine.

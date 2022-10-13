@@ -1,0 +1,4 @@
+set -e
+ln -s debian/tests/modules node_modules
+mocha -R spec
+rm -f node_modules

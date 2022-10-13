@@ -1,0 +1,97 @@
+node-gulp-babel (8.0.0-4) unstable; urgency=medium
+
+  * Team upload.
+  * fix stop depend on nodejs node-babel7;
+    have binary package enhance recent node-babel-core
+
+ -- Jonas Smedegaard <dr@jones.dk>  Fri, 18 Dec 2020 16:34:47 +0100
+
+node-gulp-babel (8.0.0-3) unstable; urgency=medium
+
+  * Team upload
+
+  [ lintian-brush ]
+  * Set upstream metadata fields: Bug-Submit.
+
+  [ Xavier Guimard ]
+  * Bump debhelper compatibility level to 13
+  * Use dh-sequence-nodejs
+  * Fix autopkgtest
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 16 Nov 2020 08:57:06 +0100
+
+node-gulp-babel (8.0.0-2) unstable; urgency=medium
+
+  * Reupload to unstable
+
+ -- Pirate Praveen <praveen@debian.org>  Sat, 02 May 2020 09:59:51 +0530
+
+node-gulp-babel (8.0.0-1) experimental; urgency=medium
+
+  * Team upload
+  * New upstream version 8.0.0
+  * Update debian/docs
+  * Add node-globals, node-lodash, node-resolve, node-semver and
+    node-to-fast-properties in build dependencies
+  * Update lintian overrides
+  * Launch test only during autopkgtest to avoid circular dependency to
+    node-babel7
+
+ -- Xavier Guimard <yadd@debian.org>  Tue, 17 Mar 2020 09:39:08 +0100
+
+node-gulp-babel (7.0.1-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ Xavier Guimard ]
+  * Add debian/gbp.conf
+  * Update debian/docs
+  * Add debian/clean
+  * Add upstream/metadata
+  * Switch test & install to pkg-js-tools
+  * Add lintian overrides
+  * Update debian/copyright
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 11 to 12.
+  * Remove obsolete fields Name, Contact from debian/upstream/metadata.
+
+  [ Xavier Guimard ]
+  * Declare compliance with policy 4.5.0
+
+ -- Xavier Guimard <yadd@debian.org>  Sat, 22 Feb 2020 19:11:23 +0100
+
+node-gulp-babel (7.0.1-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version
+  * Bump policy (no changes)
+
+ -- Bastien Roucariès <rouca@debian.org>  Wed, 08 Aug 2018 15:21:00 +0200
+
+node-gulp-babel (7.0.0-4) unstable; urgency=medium
+
+  * Package depends on babel-core
+
+ -- Bastien Roucariès <rouca@debian.org>  Wed, 16 May 2018 10:59:19 +0200
+
+node-gulp-babel (7.0.0-3) unstable; urgency=medium
+
+  * Team upload
+  * Move to salsa
+  * Bump policy and compact
+  * Fix cli
+
+ -- Bastien Roucariès <rouca@debian.org>  Tue, 15 May 2018 15:36:16 +0200
+
+node-gulp-babel (7.0.0-2) unstable; urgency=medium
+
+  * Move to main section
+
+ -- Pirate Praveen <praveen@debian.org>  Tue, 26 Sep 2017 18:05:53 +0530
+
+node-gulp-babel (7.0.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #876002)
+
+ -- Pirate Praveen <praveen@debian.org>  Sun, 17 Sep 2017 15:00:52 +0530
