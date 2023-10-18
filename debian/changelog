@@ -1,3 +1,18 @@
+node-gulp-babel (8.0.0-5) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Remove constraints unnecessary since buster:
+    + node-gulp-babel: Drop versioned constraint on node-through2 in Depends.
+
+  [ Yadd ]
+  * Update standards version to 4.6.0, no changes needed.
+  * Fix GitHub tags regex
+  * Fix filenamemangle
+
+ -- Yadd <yadd@debian.org>  Mon, 22 Nov 2021 11:22:28 +0100
+
 node-gulp-babel (8.0.0-4) unstable; urgency=medium
 
   * Team upload.
